@@ -20,28 +20,28 @@ def OR(a, b):
 
 def XOR (a, b):
     if a != b:
-        return 1
+        return True
     else:
-        return 0
+        return Flase
 
 def NOT(a):
     return not a
 
 def NOR(a, b):
     if(a == 0) and (b == 0):
-        return 1
+        return True
     elif(a == 0) and (b == 1):
-        return 0
+        return False
     elif(a == 1) and (b == 0):
-        return 0
+        return False
     elif(a == 1) and (b == 1):
-        return 0
+        return False
 
 def XNOR(a,b):
     if(a == b):
-        return 1
+        return True
     else:
-        return 0
+        return False
         
 if __name__=='__main__':
     print("1.AND")
