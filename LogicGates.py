@@ -22,7 +22,7 @@ def XOR (a, b):
     if a != b:
         return True
     else:
-        return Flase
+        return False
 
 def NOT(a):
     return not a
